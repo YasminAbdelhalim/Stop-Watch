@@ -1,16 +1,84 @@
-# React + Vite
+# ⏱️ React Stopwatch
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and responsive Stopwatch application built with **React** to practice React Hooks and timer management.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Start the stopwatch
+* Stop/Pause the stopwatch
+* Reset the timer
+* Display time in **HH : MM : SS** format
+* Automatic cleanup to prevent memory leaks
+* Responsive UI using Bootstrap
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript (ES6+)
+* React Hooks
 
-## Expanding the Oxlint configuration
+  * `useState`
+  * `useEffect`
+  * `useRef`
+* Bootstrap 5
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 📚 What I Learned
+
+During this project, I practiced:
+
+* Managing component state with `useState`
+* Using `useEffect` to handle side effects
+* Working with `setInterval()` and cleaning it up correctly
+* Using `useRef` to store the interval ID without causing re-renders
+* Converting elapsed seconds into Hours, Minutes, and Seconds
+* Formatting time using `padStart()`
+* Organizing React components and event handlers
+
+## ▶️ Getting Started
+
+1. Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Run the development server
+
+```bash
+npm run dev
+```
+
+4. Open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+## 📁 Project Structure
+
+```text
+src/
+├── App.jsx
+├── StopWatch.jsx
+├── main.jsx
+└── index.css
+```
+
+## 🎯 Future Improvements
+
+* Add Lap functionality
+* Add keyboard shortcuts
+* Save timer state using Local Storage
+* Add Dark/Light mode
+* Add animations and sound effects
+* Improve accessibility (ARIA support)
+
+---
+
+Made with ❤️ using React.
