@@ -2,6 +2,10 @@
 
 A simple and responsive Stopwatch application built with **React** to practice React Hooks and timer management.
 
+🌐 Live Demo
+
+🔗 Live Preview: https://stop-watch-chi-lac.vercel.app/
+
 ## 🚀 Features
 
 * Start the stopwatch
